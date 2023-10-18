@@ -9,7 +9,7 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -18,6 +18,20 @@ h1 {
   word-spacing: 5px;
   font-size: 200%;
 }
+
+
+body {
+  padding: 10px;
+  margin: 25px;
+  outline-width: 7px;
+  outline-color:rgb(41,46,30);
+  text-align: left;
+
+  background: rgb(249, 232, 235);
+
+  font-family:'Courier New', Courier, monospace;
+}
+
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
@@ -32,7 +46,7 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #A3C9A8;
+  background-color: #dbe1c7;
 }
 
 #my-portrait{
