@@ -1,21 +1,15 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Hangman
+// An implemation of the game
+// Leilah Hodges and Maile Jones
+// 19 October, 2023
 
-// Constants
+// Print the base picture
+// Generate dashes for the word
+// Validate user guesses 
+// Evaluate guesses
+    // Test of correct or incorrect letter input
+// Test of win or draw until dashes or picture is complete
 
-// Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
