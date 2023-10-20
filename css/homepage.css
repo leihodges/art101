@@ -1,12 +1,90 @@
 /* this css file will only style the homepage of our site */
-#my-portrait{
-  height: 25%;
-  width: 25%;
-}
 
 a:link {
   color: rgb(255, 29, 150);
 }
 a:visited {
   color: rgb(255, 51, 0)
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.minor-section.side-by-side {
+  display: flex;
+  align-items: center;
+  margin: 0.25in; /* 1/4 inch margin all around the container */
+}
+
+#my-portrait {
+  max-width: 90%;
+  height: auto;
+  border: solid 3px #888;
+}
+
+.text-box {
+  padding: 5px;
+  margin-left: 0.25in; /* 1/4 inch left margin to create 1/4 inch total spacing */
+  margin-right: 0.25in;
+  background-color:#d9ffcc;
+  border: solid 1px #888;
+}
+
+p {
+  margin-left:0.25in;
+  margin-right:0.25in;
+}
+.assignments.major-section {
+  background-color:#fffbd2;
+  border: solid 1px #888;
+}
+
+h2 {
+  margin-left: 0.25in;
+  font-size: 25px;
+  text-decoration:underline;
+}
+
+.my-favorites {
+  text-align: center; /* Center the content within the container */
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  gap: 20px; /* Add a gap between images */
+  max-width: 800px; /* Set a maximum width for the grid */
+  margin: 0 auto; /* Center the grid horizontally */
+  background-color:#e4cdff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: solid 1px #888;
+}
+
+.photo {
+  text-align: center;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 200px; /* Set a fixed width for the image container */
+  height: 250px; /* Set a fixed height for the image container */
+  display: flex;
+  margin-block-start: 5px;
+  margin-block-end: 30px;
+  margin: auto;
+  margin-left: 20px;    
+  padding-left: 45px;
+}
+
+.image-container img {
+  width: 200px; /* Ensure the image covers the container */
+  height: 200px; /* Ensure the image covers the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }

@@ -10,6 +10,3 @@
     // Test of correct or incorrect letter input
 // Test of win or draw until dashes or picture is complete
 
-
-
-

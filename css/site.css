@@ -42,17 +42,6 @@ body {
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #dbe1c7;
-}
-
-#my-portrait{
-  height: 25%;
-  width: 25%;
-}
 
 a:link {
   color: rgb(255, 29, 150);
