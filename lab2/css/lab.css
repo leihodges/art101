@@ -2,28 +2,32 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 h1 { 
-  text-align: center;
-  font-size: 60px;
-  outline-style: dotted;
-  outline-width: 3px;
-  background-color:rgb(242,215,238);
+    text-align: center;
+    font-size: 60px;
+    outline-width: 3px;
+    background-color:#fff59b;
   }
 
 body {
     padding: 10px;
     margin: 25px;
-    outline-style: dotted;
-    outline-width: 7px;
+    outline-style: solid;
+    outline-width: 1px;
     outline-color:rgb(41,46,30);
     text-align: left;
-
-    background: rgb(249, 232, 235);
-
+    background: #ffc2f3;
     font-family:'Courier New', Courier, monospace;
   }
 
- img {
-    width: 15%;
-    height: 15%;
+img {
+    height: 600px;
   }
 
+  .assignments.major-section {
+    padding: 10px;
+    margin: 25px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:rgb(41,46,30);
+    background-color:#fffbd2;
+  }
