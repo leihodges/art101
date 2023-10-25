@@ -19,13 +19,13 @@ h1 {
 }
 
 #my-portrait {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   border: solid 3px #888;
 }
 
 .text-box {
-  padding: 5px;
+  padding: 1px;
   margin-left: 0.25in; /* 1/4 inch left margin to create 1/4 inch total spacing */
   margin-right: 0.25in;
   background-color:#d9ffcc;
