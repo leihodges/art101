@@ -2,8 +2,38 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #d9ffcc;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.minor-section.side-by-side {
+  display: flex;
+  align-items: center;
+  margin: 0.25in; /* 1/4 inch margin all around the container */
+}
+
+#ford-fusion {
+  max-width: 80%;
+  height: auto;
+}
+  
+.assignments.major-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #fffbd2;
+}   
