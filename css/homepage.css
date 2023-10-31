@@ -74,7 +74,7 @@ h2 {
 }
 
 .image-container {
-  width: 200px; /* Set a fixed width for the image container */
+  max-width: 200px; /* Set a fixed width for the image container */
   height: 250px; /* Set a fixed height for the image container */
   display: flex;
   margin-block-start: 5px;
