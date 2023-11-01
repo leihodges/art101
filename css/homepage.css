@@ -10,82 +10,92 @@ a:visited {
 h1 {
   text-align: center;
   font-size: 50px;
-}
-
-.minor-section.side-by-side {
-  display: flex;
-  align-items: center;
-  margin: 0.25in; /* 1/4 inch margin all around the container */
-}
-
-#my-portrait {
-  max-width: 100%;
-  height: auto;
-  border: solid 3px #888;
-}
-
-.text-box {
-  padding: 1px;
-  margin-left: 0.25in; /* 1/4 inch left margin to create 1/4 inch total spacing */
-  margin-right: 0.25in;
-  background-color:#d9ffcc;
+  background-color: #deffcd;
   border: solid 1px #888;
 }
 
-p {
-  margin-left:0.25in;
-  margin-right:0.25in;
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 25px; 
+  margin-left: 25px;
+}
+
+.background{   
+  text-align: center; 
+  background-color: #e4cdff;
+  border: solid 1px #888;
+  padding: 3px;}
+
+
+/* editing the "about me" segment */
+  h3 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .biography {
+    background-color:rgb(215, 234, 250);
+    border: solid 1px #888;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .element1 {
+      flex: 1; /* Takes up 1/3 of the available space */
+      margin-left: 20px;
+      background-color: rgb(215, 234, 250);
+  }
+
+  .element1 img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  } 
+
+  .element2 {
+      flex: 2; /* Takes up 2/3 of the available space */
+      margin-right: 70px;
+      background-color: rgb(215, 234, 250);
+  }
+/* editing the about me segment */
+
+
+/* flex-box for my album information */
+
+.my-favorites {
+  text-align: center; /* Center the content within the container */
+  background-color: #e4cdff;
+  border: solid 1px #888;
+  padding: 3px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 30px;
+}
+
+.item {
+  flex: 1;
+  max-width: 300px;
+}
+
+.item img{
+  max-width: 100%;
+  height: auto;
 }
 
 .assignments.major-section {
   background-color:#fffbd2;
   border: solid 1px #888;
-}
-
-h2 {
-  margin-left: 0.25in;
-  font-size: 25px;
-  text-decoration:underline;
-}
-
-.my-favorites {
-  text-align: center; /* Center the content within the container */
-}
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
-  gap: 20px; /* Add a gap between images */
-  max-width: 800px; /* Set a maximum width for the grid */
-  margin: 0 auto; /* Center the grid horizontally */
-  background-color:#e4cdff;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  border: solid 1px #888;
-}
-
-.photo {
-  text-align: center;
-  margin: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container {
-  max-width: 200px; /* Set a fixed width for the image container */
-  height: 250px; /* Set a fixed height for the image container */
-  display: flex;
-  margin-block-start: 5px;
-  margin-block-end: 30px;
-  margin: auto;
-  margin-left: 20px;    
-  padding-left: 45px;
-}
-
-.image-container img {
-  width: 200px; /* Ensure the image covers the container */
-  height: 200px; /* Ensure the image covers the container */
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
