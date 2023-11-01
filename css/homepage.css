@@ -33,6 +33,7 @@ h4 {
 
 
 /* editing the "about me" segment */
+/* flex-box solution from ChatGPT and Chris Coyler on CSS-Tricks */ 
   h3 {
     text-align: center;
     font-size: 40px;
