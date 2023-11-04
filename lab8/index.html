@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+		<title>Lab 8: Anon Functions and Callbacks</title>
+			<script src="js/lab.js" defer></script>
+			<link rel="stylesheet" type="text/css" href="../css/site.css">
+			<link rel="stylesheet" type="text/css" href="css/lab.css">
+	</head>
+		
+		
+</head>
+
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 8: Anon Functions and Callbacks</h1>
+			<h2>By Leilah Hodges</h2>
+		
+			<div class="minor-section">
+				<h3>Challenge</h3>
+				<p>In this lab we worked with Anonymous Functions and Callbacks to create some simple math equations</p>
+			</div>
+
+			<div class="minor-section">
+				<h3>Difficulties</h3>
+				<p>I experiemented quite a bit in the console and in my JavaScript until I got my functions to work. 
+					I think after our lecture on Friday it made a bit more sense going into the final steps of the lab.</p>
+			</div>
+
+			<div class="minor-section">
+				<h3>Results</h3>
+				<p2>Below you can find the results of my function that can also be viewed in the Console!</p2><br>
+				<br>
+				<div id="output"></div>
+					<p id="result1"></p>
+					<p id="result2"></p>
+					<p id="result3"></p>
+					<p id="result4"></p>
+					<p id="result5"></p>
+				<script>
+					  function add(x) {
+						return x + 100;
+						}
+					//used ChatGPT to learn how to display each individual function output
+						var outputEl = document.getElementById("output");
+							document.getElementById("result1").innerHTML = "What's 1 + 100? " + add(1);
+							document.getElementById("result2").innerHTML = "What's 85 + 100? " + add(85);
+
+						var numberArray = [1, 2, 5, 37, 52, 85, 99, 149];
+							document.getElementById("result3").innerHTML = "My array: " + numberArray;
+
+						var result = numberArray.map(add);
+							document.getElementById("result4").innerHTML = "Testing simple equation: " + result;
+							document.getElementById("result5").innerHTML = "Adding one hundred to a number of my array: " + result;
+
+
+						var resultString = "Adding one hundred to each number in the array: " + result.join(", ");
+
+						outputEl.innerHTML = resultString;
+					</script>
+				</script>
+			</div>
+
+
+
+			<div id="output"></div>
+		</section>
+
+		<nav id="links">
+			<nav id="links">
+				<div class="assignments major-section">
+					<h4>Navigation</h4>
+						<ul>
+							<li><a href="../index.html">Homepage</a></li>
+							<li><a><a href="../lab2/index.html">Lab 2, HTML and CSS</a></a></li>
+                            <li><a><a href="../lab3/index.html">Lab 3, File Structure and File Transfer</a></a></li>
+							<li><a><a href="../lab4/index.html">Lab 4, Pseudocoding and Problem Solving</a></a></li>
+							<li><a><a href="../lab5/index.html">Lab 5, Data Types and Variables</a></li>
+							<li><a><a href="../lab6/index.html">Lab 6, Arrays and Objects</a></a></li>
+							<li><a><a href="../lab7/index.html">Lab 7, Functions</a></a></li>
+						</ul>
+				</div>
+			</nav>
+		</nav>
+
+
+	</main>
+</body>
+</html>
