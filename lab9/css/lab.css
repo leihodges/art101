@@ -21,47 +21,17 @@ h1 {
     text-decoration: underline;
   }
 
-  .minor-section1 {
+  .special-sections {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #d9ffcc;
   }
 
-  .minor-section2 {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #d9ffcc;
-  }
-
-  .minor-section3 {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #d9ffcc;
-  }
-
-  .specialFirstButton{
-    background-color: #ffb2f1;
+  .special-sections p{
+    background-color: #e9b2ff;
     font-family: 'American Typewriter', serif;
-  }
-
-  .specialSecondButton{
-    background-color: #ffd5b2;
-    font-family: 'American Typewriter', serif;
-  }
-
-  .specialThirdButton{
-    background-color: #fffeb2;
-    font-family: 'American Typewriter', serif;
-  }
-  
-  #output {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #ece7ff;
+    font-weight:500;
   }
 
   .assignments.major-section {
