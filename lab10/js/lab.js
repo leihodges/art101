@@ -3,6 +3,8 @@ Creating a text messaging bot through JavaScript using output div
 Author: Leilah Hodges
 Date: 14 November, 2023 */
 
+
+/*followed Wes' tutorial to help me create my JS */
 function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     const min = 3;
