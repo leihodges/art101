@@ -15,7 +15,7 @@ function sortUserName(){
 // Allows you to split multiple words into strings 
 
 
-//Sorth the word arrays independent of eachother without combining them.
+//Sort the word arrays independent of eachother without combining them.
 //Ilia pointed us towards looking at locale compare during section
 //which helped me understand how to frame my questions to ChatPT.
     var sortedWords = words.map(function (word) {
