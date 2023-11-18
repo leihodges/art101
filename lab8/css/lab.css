@@ -28,10 +28,14 @@ h1 {
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #d9ffcc;
+    border-radius: 5px;
+
   }
   
   .assignments.major-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #fffbd2;}
+    background-color: #fffbd2;
+    border-radius: 5px;
+  }

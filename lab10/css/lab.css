@@ -6,6 +6,7 @@ and fake profile picture */
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #d9ffcc;
+  border-radius: 5px;
 }
 
 h1 {
@@ -81,4 +82,7 @@ h5 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #fffbd2;}
+  background-color: #fffbd2;
+  border-radius: 5px;
+
+}

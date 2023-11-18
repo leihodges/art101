@@ -30,4 +30,5 @@ img {
     outline-width: 1px;
     outline-color:rgb(41,46,30);
     background-color:#fffbd2;
+    border-radius: 5px;
   }

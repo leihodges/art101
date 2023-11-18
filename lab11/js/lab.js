@@ -4,37 +4,50 @@ field and outputs a modified version
 Author: Leilah Hodges
 Date: 16 November, 2023 */
 
-/* allows us to sort characters alphabetically*/
+/* allows us to sort characters alphabetically
 function sortString(inputString) {
   return inputString.split('').sort(function (a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());} ).join('');
 }
+*/
+
+
+/* Made a function attaching a Stars Wars character to user's name with assistance from ChatGPT*/
+function getRandomStarWarsCharacter(userName) {
+  // Array of Star Wars characters
+  var starWarsCharacters = [
+      /*individual classes needed to change character colors in CSS */
+      {name: "Luke Skywalker", class: "luke" },
+      {name: "Darth Vader", class: "vader"},
+      {name: "Princess Leia", class: "leia"},
+      {name: "Han Solo", class: "solo"},
+      {name: "Obi-Wan Kenobi", class: "kenobi"},
+      {name: "Yoda", class: "yoda"},
+      {name: "R2-D2", class: "rtwo"},
+      {name: "C-3PO", class: "cthree"},
+      {name: "Chewbacca", class: "chewbacca"},
+      {name: "Emperor Palpatine", class: "palpatine"},
+      {name: "Boba Fett", class: "boba"},
+      {name: "Rey", class: "rey"},
+      {name: "Finn", class: "finn"},
+      {name: "Kylo Ren", class: "kylo"},
+      {name: "Mandalorian", class: "mandalorian"},
+      {name: "Ahsoka", class: "ahsoka"},
+  ];
+
+  // Generate a random index to assign input with a value for randomized character
+  var randomIndex = Math.floor(Math.random() * starWarsCharacters.length);
+
+  // Get a random Star Wars character
+  var randomCharacter = starWarsCharacters[randomIndex];
+  // message prompted with new information
+  var message = "Hello, " + userName + "! Your Star Wars Identity is, <span class='" + randomCharacter.class + "'>" + randomCharacter.name + "</span>"+"." + " May the Force be with you!";
+  return message;
+}
 
 $("#submit").click(function(){
   const userName = $("#user-name").val();
-  //input "userName" allows us to attach the function we used in lab 7
-  userNameSorted = sortUserName(userName);
-  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+  var userNameSorted = $("#user-name").val();
+  var randomCharacterMessage = getRandomStarWarsCharacter(userNameSorted);
+  $("#output").html('<div class="text"><p>' + randomCharacterMessage + '</p></div>');
 });
-
-
-function sortUserName(userName){
-
-  var words = userName.split(' ');
-// Allows you to split multiple words into strings 
-
-
-//Sort the word arrays independent of eachother without combining them.
-//Ilia pointed us towards looking at locale compare during section
-//which helped me understand how to frame my questions to ChatPT.
-  var sortedWords = words.map(function (word) {
-      var wordArray = word.split('');
-      var sortedWord = wordArray.sort(function (a, b) {
-          return a.toLowerCase().localeCompare(b.toLowerCase());
-          }).join('');
-      return sortedWord;
-  });
-
-  var nameSorted = sortedWords.join(' ');
-  return nameSorted;
-}

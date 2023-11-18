@@ -6,6 +6,7 @@ and fake profile picture */
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #d9ffcc;
+  border-radius: 5px;
 }
 
 h1 {
@@ -21,25 +22,54 @@ h4 {
 }
 
 h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
   text-align: center;
-  font-size: 20px;
-  font-family: sans-serif;
+  font-size: 40px;
 }
 
+img {
+  max-width: 40%;
+  margin-top: 1px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+h6 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.yellow-word {
+  color: rgb(252, 229, 136);
+  font-weight: bold;
+}
+
+.purple-word {
+  color: rgb(208, 136, 252);
+  font-weight: bold;
+}
+
+/*changing css of the box encapsulating the input and all other text with help from ChatGPT*/
 #search-bar{
-  
   border-radius: 15px;
-  border: solid 1px #888;
-  background-color:#ffe2fc;
-  font-family: 'Snell Roundhand';
-  font-size: 100px;
+  border: solid 3px #2a2a2a;
+  background-color: #96948c;
+  padding: 15px;
+  margin: 0 auto; /* This will horizontally center the input field */
+  margin-top: 18px;
+  display: block; /* Ensure it's a block-level element to set a width */
+  width: 70%; 
+  text-align: center;
 }
-
-
 
 #submit {
   border-radius: 3px;
-  background-color: rgb(208, 255, 188);
+  background-color: rgb(255, 194, 252);
   font-size: 15px;
 }
 
@@ -47,4 +77,103 @@ h5 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #fffbd2;}
+  background-color: #fffbd2;
+  border-radius: 5px;
+}
+
+  /* character modifications below */
+.luke {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.vader {
+  font-size: 20px;
+  color: rgb(252, 136, 136);
+  font-weight: bold;
+}
+
+.leia {
+  font-size: 20px;
+    color: rgb(136, 252, 252);
+    font-weight: bold;
+}
+
+.solo {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.kenobi {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.yoda {
+  font-size: 20px;
+  color: rgb(136, 252, 148);
+  font-weight: bold;
+}
+
+.rtwo {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.cthree {
+  font-size: 20px;
+  color: rgb(252, 229, 136);
+  font-weight: bold;
+}
+
+.chewbacca {
+  font-size: 20px;
+  color: rgb(252, 188, 136);
+  font-weight: bold;
+}
+
+.palpatine {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.boba {
+  font-size: 20px;
+  color: rgb(136, 252, 136);
+  font-weight: bold;
+}
+
+.rey {
+  font-size: 20px;
+  color: rgb(136, 252, 252);
+  font-weight: bold;
+}
+
+.finn {
+  font-size: 20px;
+  color: rgb(136, 252, 136);
+  font-weight: bold;
+}
+
+.kylo {
+  font-size: 20px;
+  color: rgb(252, 136, 136);
+  font-weight: bold;
+}
+
+.mandalorian {
+  font-size: 20px;
+  color: rgb(0, 2, 47);
+  font-weight: bold;
+}
+
+.ahsoka {
+  font-size: 20px;
+  color: rgb(240, 255, 255);
+  font-weight: bold;
+}
