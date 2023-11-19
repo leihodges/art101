@@ -5,7 +5,7 @@ Date: 20 November, 2023 */
 
 // Gorillaz Band characters and description courtesy of  
 
-//also using simialar solution I used in lab 11
+//also using simialar solution I used in lab 11 and additional assistance from ChatGPT
 
 var gorillazCharacters = [
   {
