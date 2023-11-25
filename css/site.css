@@ -50,3 +50,11 @@ a:visited {
   color: rgb(255, 51, 0);
 }
 
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: solid 1px #888;
+  background-color: #e2ffd8;
+  border-radius: 5px;
+}
