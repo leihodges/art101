@@ -42,6 +42,8 @@ function getCssClass(output) {
             return "highlight-crackle";
         case "Pop":
             return "highlight-pop";
+        case "SnapPop":
+            return "highlight-snapop";
         case "SnapCrackle":
             return "highlight-snapcrackle";
         case "CracklePop":

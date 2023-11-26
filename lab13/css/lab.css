@@ -18,6 +18,11 @@
     font-weight: bold;
 }
 
+.highlight-snapop {
+    color: rgb(255, 238, 80); 
+    font-weight: bold;
+}
+
 .highlight-cracklepop {
     color: rgb(255, 80, 153); 
     font-weight: bold;
