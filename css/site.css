@@ -58,3 +58,11 @@ a:visited {
   background-color: #e2ffd8;
   border-radius: 5px;
 }
+
+.assignments.major-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #fffbd2;
+  border-radius: 5px;
+}
