@@ -29,7 +29,7 @@ function fizzBuzzBoom() {
         let cssClass = getCssClass(output);
 
         // Append the paragraph with the appropriate CSS class
-        $("#output").append(`<p class="${cssClass}">${i} ${output}</p>`);
+        $("#output").append(`<p class="${cssClass}"> ${output}</p>`);
     }
 }
 
