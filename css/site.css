@@ -2,67 +2,72 @@
 
 /* you can pick your own background colors, text colors, and fonts */
 
-/* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #f1daf4;
+  background-color: #fffef7;
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
+/* Text CSS */
 h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-
-body {
+  text-align: center;
+  font-size: 50px;
   padding: 10px;
   margin: 25px;
-  outline-width: 7px;
-  outline-color:rgb(41,46,30);
+  border: solid 2px #5F262C;
+  background-color:#E0A4AB;
+  color:#5F262C;
+  border-radius: 15px;
+}
+
+h2 {
   text-align: left;
-
-  background: rgb(249, 232, 235);
-
-  font-family:'Courier New', Courier, monospace;
-}
-
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
+  font-size: 20px;
   padding: 10px;
-  border: solid 1px #282828;
-  background-color: #ffc2f3;
+  margin: 1px;}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
 }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-
-a:link {
-  color: rgb(255, 29, 150);
-}
-a:visited {
-  color: rgb(255, 51, 0);
+p {
+  margin-left: 30px;
+  margin-right: 50px;
+  font-size: 15px;
 }
 
 .minor-section {
+  text-align: left;
   padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  border: solid 1px #888;
-  background-color: #e2ffd8;
-  border-radius: 5px;
+  margin: 30px;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color:#000000;
+  background-color:#556968;
+  border: solid 2px #556968;
+  border-radius: 15px;
 }
 
+.minor-section-background{
+  background-color: #F2EFEA;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* navigation css */
 .assignments.major-section {
   padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #fffbd2;
-  border-radius: 5px;
+  margin: 25px;
+  background-color:#711a1f;
+  border: solid 2px #E0A4AB;
+  border-radius: 15px;
+  color: #E0A4AB;
+  font-size: 20px;
+}
+
+a:link {
+  color: #E0A4AB;
+}
+a:visited {
+  color: #E0A4AB;
 }

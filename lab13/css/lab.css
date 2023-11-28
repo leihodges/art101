@@ -1,60 +1,68 @@
+
+
 .highlight-snap {
-    color: rgb(255, 92, 80); 
+    color: #F4F470; 
     font-weight: bold;
 }
 
 .highlight-crackle {
-    color: rgb(211, 255, 80);
+    color: #66A375;
     font-weight: bold;
 }
 
 .highlight-pop {
-    color: rgb(80, 197, 255); 
+    color: #ffbdc4; 
     font-weight: bold;
 }
 
 .highlight-snapcrackle {
-    color: rgb(203, 80, 255); 
+    color: #cb8dff; 
     font-weight: bold;
 }
 
 .highlight-snapop {
-    color: rgb(255, 238, 80); 
+    color: #E0363F; 
     font-weight: bold;
 }
 
 .highlight-cracklepop {
-    color: rgb(255, 80, 153); 
+    color: #b7e2e0; 
     font-weight: bold;
 }
 
 .highlight-snapcracklepop {
-    color: rgb(255, 249, 80); 
+    color: #deace0; 
     font-weight: bold;
 }
 
 h3 {
+    background-color: #3d3e1c;
+    color:#F2EFEA;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 2px;
-    padding: 3px;
-    background-color: #430036;
-    color:aliceblue;
-    border-radius: 15px;
     font-weight: normal;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 3px;
+    border-radius: 15px;
+
 }
 
 #output {
     display: flex;
     flex-wrap: wrap;
-    background-color: #430036;
-    color:aliceblue;
+    background-color: #2c2d13;
+    color:#F2EFEA;
     border-radius: 15px;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 #output p {
-    width: 33%; /* percentage dictates the number of columns */
+    width: 20%; /* percentage dictates the number of columns */
     box-sizing: border-box; 
-    padding: 3px;
+    font-size: 20px;
 }

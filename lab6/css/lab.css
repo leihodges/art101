@@ -1,20 +1,6 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #d9ffcc;
-  border-radius: 5px;
-
-}
-
-h1 {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 40px;
-}
 
 h4 {
   text-align: center;
@@ -22,22 +8,13 @@ h4 {
   font-weight: normal;
 }
 
-.minor-section.side-by-side {
-  display: flex;
-  align-items: center;
-  margin: 0.25in; /* 1/4 inch margin all around the container */
-}
-
 #ford-fusion {
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
+  background-color: #556968;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-  
-.assignments.major-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #fffbd2;
-  border-radius: 5px;
 
-}   
+

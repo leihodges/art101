@@ -1,31 +1,12 @@
 /*working on the changes for text message boxes
 and fake profile picture */
 
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #d9ffcc;
-  border-radius: 5px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 40px;
-}
-
-h4 {
-  text-align: center;
-  font-size: 20px;
-  text-decoration: underline;
-  font-weight: normal;
-}
-
 h5 {
   margin-top: 10px;
   margin-bottom: 5px;
   text-align: center;
   font-size: 40px;
+  color: #F2EFEA;
 }
 
 img {
@@ -42,6 +23,7 @@ h6 {
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 1px;
+  color: #F2EFEA;
 }
 
 .yellow-word {
@@ -57,8 +39,8 @@ h6 {
 /*changing css of the box encapsulating the input and all other text with help from ChatGPT*/
 #search-bar{
   border-radius: 15px;
-  border: solid 3px #2a2a2a;
-  background-color: #96948c;
+  border: solid 3px #131408;
+  background-color: #2c2d13;
   padding: 15px;
   margin: 0 auto; /* This will horizontally center the input field */
   margin-top: 18px;
@@ -66,19 +48,14 @@ h6 {
   width: 70%; 
   text-align: center;
 }
+#search-bar p{
+  color: #afb24c;
+}
 
 #submit {
   border-radius: 3px;
   background-color: rgb(255, 194, 252);
   font-size: 15px;
-}
-
-.assignments.major-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #fffbd2;
-  border-radius: 5px;
 }
 
   /* character modifications below */

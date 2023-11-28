@@ -2,40 +2,9 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
-h1 {
-    text-align: center;
-    text-decoration: underline;
-  }
-  
-  h2 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: normal;
-  }
-
   h4 {
     text-align: left;
     font-size: 20;
     font-weight: normal;
     text-decoration: underline;
-  }
-  
-  p2 {
-    text-decoration: underline;
-  }
-  .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #d9ffcc;
-    border-radius: 5px;
-
-  }
-  
-  .assignments.major-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #fffbd2;
-    border-radius: 5px;
   }

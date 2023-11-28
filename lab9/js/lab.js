@@ -4,12 +4,12 @@
 // Date: 7 November, 2023
 
     //hides elements when screen first loaded
-    $('.special-sections').find('p').hide();
+    $('.minor-section').find('p').hide();
 
     // giving all sections the same class name allows the button to be placed in seperate divisions
     // "p" allows the function to find the paragraph writing within the specific class
     //used chatGPT to help me understand better what certain elements do and create a function template    
-    $('.special-sections').append('<button>Show</button>').click(function() {
+    $('.minor-section').append('<button>Show</button>').click(function() {
         $(this).find('p').toggle();
     });
 

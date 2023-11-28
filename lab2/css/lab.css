@@ -1,34 +1,29 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-h1 { 
-    text-align: center;
-    font-size: 60px;
-    outline-width: 3px;
-    background-color:#fff59b;
-  }
 
-body {
-    padding: 10px;
-    margin: 25px;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color:rgb(41,46,30);
-    text-align: left;
-    background: #ffc2f3;
-    font-family:'Courier New', Courier, monospace;
-  }
+.container {
+  text-align: center;
+  margin-top: 10px;
+}
 
 img {
-    height: 600px;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px;
+  width: 20%;
+  border-radius: 15px;
+}
 
-  .assignments.major-section {
-    padding: 10px;
-    margin: 25px;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color:rgb(41,46,30);
-    background-color:#fffbd2;
-    border-radius: 5px;
-  }
+.biography {
+  padding: 10px;
+  margin: 25px;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color:rgb(41,46,30);
+  background-color:#d2f5ff;
+  border-radius: 5px;
+}
+
+

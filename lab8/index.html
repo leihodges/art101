@@ -16,56 +16,52 @@
 	<main id="content">
 		<section>
 			<h1>Lab 8: Anon Functions and Callbacks</h1>
-			<h2>By Leilah Hodges</h2>
-		
-			<div class="minor-section">
-				<h3>Challenge</h3>
-				<p>In this lab we worked with Anonymous Functions and Callbacks to create some simple math equations</p>
-			</div>
 
-			<div class="minor-section">
-				<h3>Difficulties</h3>
-				<p>I experiemented quite a bit in the console and in my JavaScript until I got my functions to work. 
-					I think after our lecture on Friday it made a bit more sense going into the final steps of the lab.</p>
-			</div>
+			<div class="minor-section-background">
+				<div class="minor-section">
+					<h3>Challenge</h3>
+					<p>In this lab we worked with Anonymous Functions and Callbacks to create some simple math equations</p>
+				</div>
 
-			<div class="minor-section">
-				<h3>Results</h3>
-				<p2>Below you can find the results of my function that can also be viewed in the Console!</p2><br>
-				<br>
-				<div id="output"></div>
-					<p id="result1"></p>
-					<p id="result2"></p>
-					<p id="result3"></p>
-					<p id="result4"></p>
-					<p id="result5"></p>
-				<script>
-					  function add(x) {
-						return x + 100;
-						}
-					//used ChatGPT to learn how to display each individual function output along with the suggestions from Wes.
-						var outputEl = document.getElementById("output");
-							document.getElementById("result1").innerHTML = "What's 1 + 100? " + add(1);
-							document.getElementById("result2").innerHTML = "What's 85 + 100? " + add(85);
+				<div class="minor-section">
+					<h3>Difficulties</h3>
+					<p>I experiemented quite a bit in the console and in my JavaScript until I got my functions to work. 
+						I think after our lecture on Friday it made a bit more sense going into the final steps of the lab.</p>
+				</div>
 
-						var numberArray = [1, 2, 5, 37, 52, 85, 99, 149];
-							document.getElementById("result3").innerHTML = "My array: " + numberArray;
+				<div class="minor-section">
+					<h3>Results</h3>
+					<p>Below you can find the results of my function that can also be viewed in the Console!</p><br>
+						<div id="output"></div>
+							<p id="result1"></p>
+							<p id="result2"></p>
+							<p id="result3"></p>
+							<p id="result4"></p>
+							<p id="result5"></p>
+						<script>
 
-						var result = numberArray.map(add);
-							document.getElementById("result4").innerHTML = "Testing simple equation: " + result;
-							document.getElementById("result5").innerHTML = "Adding one hundred to a number of my array: " + result;
+							function add(x) {
+								return x + 100;
+								}
+							//used ChatGPT to learn how to display each individual function output along with the suggestions from Wes.
+								var outputEl = document.getElementById("output");
+									document.getElementById("result1").innerHTML = "What's 1 + 100? " + add(1);
+									document.getElementById("result2").innerHTML = "What's 85 + 100? " + add(85);
 
+								var numberArray = [1, 2, 5, 37, 52, 85, 99, 149];
+									document.getElementById("result3").innerHTML = "My array: " + numberArray;
 
-						var resultString = "Adding one hundred to each number in the array: " + result.join(", ");
+								var result = numberArray.map(add);
+									document.getElementById("result4").innerHTML = "Testing simple equation: " + result;
+									document.getElementById("result5").innerHTML = "Adding one hundred to a number of my array: " + result;
 
-						outputEl.innerHTML = resultString;
+								var resultString = "Adding one hundred to each number in the array: " + result.join(", ");
+
+								outputEl.innerHTML = resultString;
+						</script>
 					</script>
-				</script>
+				</div>
 			</div>
-
-
-
-			<div id="output"></div>
 		</section>
 
 		<nav id="links">
@@ -84,6 +80,7 @@
 							<li><a><a href="../lab10/index.html">Lab 10, JavaScript for the Web</a></a></li>
 							<li><a><a href="../lab11/index.html">Lab 11, JavaScript Events and Form</a></a></li>
 							<li><a><a href="../lab12/index.html">Lab 12, Conditionals</a></a></li>
+							<li><a><a href="../lab13/index.html">Lab 13, Loops</a></a></li>
 						</ul>
 				</div>
 			</nav>
