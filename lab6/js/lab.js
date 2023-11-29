@@ -3,7 +3,7 @@
 // Date: 26 October, 2023
 
 //Define Variables
-myTransport = myTransport = ["Bus","Car","Walking","Plane"]
+myTransport = myTransport = ["Bus"," Car"," Walking"," Plane"]
 
 //Objects for my main ride
 myMainRide = { 
@@ -20,4 +20,4 @@ myMainRide = {
 document.writeln("Kinds of transportation I use: ", myTransport, "<br>")
 //allows us to write an object to the document
 document.writeln("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
