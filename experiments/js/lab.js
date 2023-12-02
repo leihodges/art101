@@ -2,11 +2,7 @@
 // Author: Leilah Hodges
 // Date: 15 November, 2023
 
-$("#input-button").click(function(){
-  // creating a variable to find your name and then using a value method
-  var name = $("#input").val();
-  //allows you to place name info into the title
-  $('#title').html('Hello ' + name);
+document.getElementById('next').addEventListener('click', function() {
+  window.location.href = 'https://www.traceloops.com/faceloops/'; // Replace with your desired URL
 });
-
 

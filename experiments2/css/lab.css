@@ -1,0 +1,203 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  background-color: #fffef7;
+  
+}
+
+/* Header CSS */
+.header {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin: 25px;
+  border: solid 2px #FE6000;
+  background-color:#EEB1DD;
+  color:#FE6000;
+  border-radius: 15px;
+  margin-left:300px;
+  margin-right:300px;
+}
+
+h1 {
+  background-color:#EEB1DD;
+  border: solid 2px #EEB1DD;
+  color:#FE6000;
+  font-size: 60px;
+
+}
+
+.header p {
+  padding: 4px;
+  font-style: italic;
+}
+
+#decals {
+  max-width: 30%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.decals-section {
+  display: flex;
+  justify-content: center;
+}
+
+#syrup {
+  max-width: 13%;
+}
+
+/* Body CSS */
+h2 {
+  text-align: center;
+  background-color:#EFE04B;
+  border-radius: 10px;
+  color:#20531C;
+  font-size: 30px;
+  margin: 10px 250px 50px 250px;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+}
+
+.minor-section p {
+  margin-left: 30px;
+  margin-right: 50px;
+  font-size: 18px;
+  color: #232001;
+  text-align: center;
+}
+
+.title-color {
+  color: #EFE04B;
+  font-size: 25px;
+}
+
+.minor-section {
+  text-align: left;
+  padding: 10px;
+  margin: 30px;
+  outline-style: solid;
+  background-color:#20531C;
+  border: solid 2px #EFE04B;
+  border-radius: 15px;
+  font-weight: 550;
+  margin-left:175px;
+  margin-right:175px;
+  margin-bottom: 30px;
+}
+
+.minor-section-background{
+  background-color: #F2EFEA;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  max-width: 30%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+/* CSS unique to this page */
+#diet {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#time {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* Template by StackOverflow and ChatGPT*/
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #20531C;
+  border: 3px solid #EFE04B;
+  color: #EFE04B;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.checkbox-container label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.center-justify-text {
+  text-align: justify;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Customize checkbox appearance */
+input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #EFE04B;
+  background-color: #EFE04B;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #EEB1DD;
+  border: 1px solid #EFE04B;
+  color: #20531C;
+  border-radius: 40%;
+}
+
+/* navigation */
+
+#next {
+  border-radius: 10px;
+  background-color: #EEB1DD;
+  border-color: #DB4331;
+  color: #DB4331;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.button-section {
+  display: grid;
+  place-items: center;
+}

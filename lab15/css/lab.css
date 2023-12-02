@@ -1,0 +1,91 @@
+
+/* button css */
+#action {
+    border: 3px solid #dd5b5b;
+    border-radius: 10px;
+    background-color: #ffebeb;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #dd5b5b;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin: auto; /* Center the button horizontally */
+}
+
+/* Changes to Clamperl header and text */
+#pokemon-details h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff8eb;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+    background-color: #b4995a;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#pokemon-details p {
+    text-align: center;
+    color: #002228;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200px;
+    background-color: rgba(180, 153, 90, 0.7); /* must use rgba to change background opacity (.7) */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#pokemon-card {
+    display: none; /* Initially hide the Pokemon card */
+    width: 300px;
+    border: 3px solid #dbba6d;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #00353e;
+}
+
+/* Clamperl image and background changes */
+#clamperl {
+    display: flex;
+    justify-content: center;
+}
+
+#pokemon-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+    background-color: #aaf2ff;
+    border: 3px solid #dbba6d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#pokemon-image img {
+    width: 300px; 
+    height: auto; /* maintains the aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#pokemon-details {
+    font-family: 'Gill Sans';
+    /* metallic gradient help from https://www.julienthibeaut.xyz/ */
+    background: linear-gradient(
+        45deg,
+        #00353e 5%,
+        #006172 10%,
+        #00a6c3 30%,
+        #00d5fb 50%,
+        #00a6c3 70%,
+        #006172 80%,
+        #00353e 90%
+    );
+    border: 3px solid #dbba6d;
+    border-radius: 5px;
+}
+
