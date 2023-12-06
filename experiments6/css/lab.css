@@ -1,0 +1,184 @@
+
+/*CSS for image board -- with assistance from chat gpt*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Reduce the gap */
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+}
+
+.grid-item img {
+  display: block;
+  width: 70%; /* Reduce the width by 50% */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  background-color: #fffef7;
+  
+}
+
+/* Header CSS */
+.header {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin: 25px;
+  border: solid 2px #FE6000;
+  background-color:#EEB1DD;
+  color:#FE6000;
+  border-radius: 15px;
+  margin-left:300px;
+  margin-right:300px;
+}
+
+h1 {
+  background-color:#EEB1DD;
+  border: solid 2px #EEB1DD;
+  color:#FE6000;
+  font-size: 60px;
+
+}
+
+.header p {
+  padding: 4px;
+  font-style: italic;
+}
+
+/* form field css */ 
+#recipeResult {
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  background-color:#EEB1DD;
+  border: solid 3px #20531C ;
+  border-radius: 15px;
+  font-weight: 550;
+  font-size: 25px;
+  margin-left:175px;
+  margin-right:175px;
+  margin-bottom: 30px;
+  display: none;
+}
+
+#recipeResult.show {
+  display: block;
+}
+
+#recipeResult h2 {
+  background-color:#20531C;
+  color: #EEB1DD;
+  border-radius: 15px;
+}
+
+#recipeResult h3 {
+  background-color:#20531C;
+  color: #EEB1DD;
+  border-radius: 15px;
+}
+
+#recipeResult li {
+  font-size: 15px;
+  font-weight: 600;
+  color:#20531C;
+  line-height: 2.0;
+  text-align: left;
+}
+
+#recipeResult p {
+  background-color: rgba(238, 57, 37, .9);
+  color: #EEB1DD;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.grouping {
+  border-radius: 10px;
+  outline:solid 3px #EFE04B;
+  padding:10px;
+  margin: 50px 100px;
+}
+
+/* Body CSS */
+h2 {
+  text-align: center;
+  background-color:#EFE04B;
+  border-radius: 10px;
+  color:#20531C;
+  font-size: 30px;
+  margin: 10px 250px 50px 250px;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+}
+
+.minor-section p {
+  margin-left: 30px;
+  margin-right: 50px;
+  font-size: 18px;
+  color: #232001;
+  text-align: center;
+}
+
+.title-color {
+  color: #EFE04B;
+  font-size: 25px;
+}
+
+.minor-section {
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  background-color:#20531C;
+  border: solid 2px #EFE04B;
+  border-radius: 15px;
+  font-weight: 550;
+  font-size: 25px;
+  margin-left:300px;
+  margin-right:300px;
+  margin-bottom: 30px;
+}
+
+.minor-section-background{
+  background-color: #F2EFEA;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+/* navigation */
+
+#next {
+  border-radius: 10px;
+  background-color: #EEB1DD;
+  border-color: #DB4331;
+  color: #DB4331;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.button-section {
+  display: grid;
+  place-items: center;
+}
