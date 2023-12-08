@@ -1,42 +1,79 @@
-// authot: Leilah Hodges
-// date: 30 November, 2023
-// Task: Lab 15, experimenting with using APIs 
-
-
-//API code formula provided by Wes
-$('#action').click(function(){
-    // Using the core $.ajax() method
+// previous comic
+$('#prev').click(function(){
     $.ajax({
-        // The URL for the request (ENDPOINT)
-        url: "https://pokeapi.co/api/v2/pokemon/366/",
-
+        url: "https://xkcd.com/"+ comic +"/info.0.json", // Replace with the specific comic's endpoint
         type: "GET",
-        // The type of data we expect back
-        dataType : "json",
-    })
-    // If the request succeeds
-    .done(function(data) {
-        console.log(data);
+        dataType: "json",
+        success: function(data) {
 
-        // Display the species name
-        var speciesName = data.species.name;
+            console.log("Previous Comic:", data);
 
-        // Display held items
-        var heldItems = data.held_items.map(item => item.item.name).join(', ');
+            // Update the DOM with API information
+            $('#comicTitle').text(data.title);
+            $('#comicImage').attr('src', data.img);
+            $('#comicAlt').text(data.alt);
 
-    // Display from ChatGPT
-        $('#pokemon-image').html(`<img src="${data.sprites.front_default}" alt="${data.name}">`);
-        $('#pokemon-details').html(`
-            <h2>${data.name}</h2>
-            <p>Height: ${data.height}</p>
-            <p>Weight: ${data.weight}</p>
-            <p>Base Experiemce: ${data.base_experience}</p>
-            <p>Species: ${speciesName}</p>
-            <p>Held Items: ${heldItems}</p>
-            <!-- Add more details as needed -->
-        `);
+            // Show the comic container
+            $('#comicContainer').show();
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error:", textStatus, errorThrown);
+        }
+    });
+});
 
-        // allows you to open and close the item when clicking the button
-        $('#pokemon-card').toggle()
-    })
+// comic i chose
+var comic;
+var recent;
+
+$('#find').click(function(){
+    $.ajax({
+        url: "https://xkcd.com/889/info.0.json", // Replace with the specific comic's endpoint
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+
+            // for previous comic
+            comic = data.num - 1;
+            // for next comic
+            recent = data.num + 1;
+
+            console.log("API Data:", data);
+
+            // Update the DOM with API information
+            $('#comicTitle').text(data.title);
+            $('#comicImage').attr('src', data.img);
+            $('#comicAlt').text(data.alt);
+
+            // Show the comic container
+            $('#comicContainer').show();
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error:", textStatus, errorThrown);
+        }
+    });
+});
+
+// comic after
+$('#next').click(function(){
+    $.ajax({
+        url: "https://xkcd.com/"+ recent +"/info.0.json", // Replace with the specific comic's endpoint
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+
+            console.log("Next Comic:", data);
+
+            // Update the DOM with API information
+            $('#comicTitle').text(data.title);
+            $('#comicImage').attr('src', data.img);
+            $('#comicAlt').text(data.alt);
+
+            // Show the comic container
+            $('#comicContainer').show();
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error:", textStatus, errorThrown);
+        }
+    });
 });
