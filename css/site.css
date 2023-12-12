@@ -60,7 +60,7 @@ p {
 }
 
 /* navigation css */
-.assignments.major-section {
+.assignments-major-section {
   padding: 10px;
   margin: 25px;
   background-color:#711a1f;
@@ -69,6 +69,12 @@ p {
   color: #E0A4AB;
   font-size: 20px;
 }
+
+.assignments-major-section h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
 
 a:link {
   color: #E0A4AB;

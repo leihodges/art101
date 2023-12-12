@@ -1,7 +1,7 @@
 // previous comic
 $('#prev').click(function(){
     $.ajax({
-        url: "https://xkcd.com/"+ comic +"/info.0.json", // Replace with the specific comic's endpoint
+        url: "https://xkcd.com/"+ comic +"/info.0.json",
         type: "GET",
         dataType: "json",
         success: function(data) {
@@ -28,7 +28,7 @@ var recent;
 
 $('#find').click(function(){
     $.ajax({
-        url: "https://xkcd.com/889/info.0.json", // Replace with the specific comic's endpoint
+        url: "https://xkcd.com/889/info.0.json",
         type: "GET",
         dataType: "json",
         success: function(data) {
@@ -57,7 +57,7 @@ $('#find').click(function(){
 // comic after
 $('#next').click(function(){
     $.ajax({
-        url: "https://xkcd.com/"+ recent +"/info.0.json", // Replace with the specific comic's endpoint
+        url: "https://xkcd.com/"+ recent +"/info.0.json", 
         type: "GET",
         dataType: "json",
         success: function(data) {

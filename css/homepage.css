@@ -15,7 +15,7 @@
     color: #abd3d1;
     font-size: 50px;
     margin-left:575px;
-    text-align: left;
+    text-align: center;
   }
 
   h1 {
@@ -23,11 +23,12 @@
     margin-right:300px;
   }
 
-  h2 {
+  .my-favorites h2 {
     text-align: center;
     font-size: 35px;
     padding: 10px;
     margin: 25px;
+    color:#b3b46f
   }
 
   .flex-container {
@@ -42,11 +43,11 @@
   }
 
   .element1 img {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
     margin-left: 15px;
     margin-bottom: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #556968;
   } 
 
@@ -60,6 +61,12 @@
   color: #abd3d1;
   font-weight: 500;
 }
+
+.assignments-major-section h2 {
+  color: #E0A4AB;
+  font-size: 40px;
+}
+
 /* editing the about me segment */
 
 
